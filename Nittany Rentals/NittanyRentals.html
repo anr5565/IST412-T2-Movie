@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nittany Rentals Home</title>
+    <link rel="icon" href="pngfiles/pawprint.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,18 +21,40 @@
         </div>
     </header>
     <main>
-        <section id="trendingMovies">
-            <!-- Trending movies will be dynamically added here. -->
-            <div class="movie-poster" style="background-image: url('pngfiles/maverick.png');"></div>
-            <div class="movie-poster" style="background-image: url('pngfiles/fnaf.jpg');"></div>
-            <div class="movie-poster" style="background-image: url('pngfiles/mario.jpg');"></div>
-            <div class="movie-poster" style="background-image: url('pngfiles/oppenheimer.jpg');"></div>
-            <div class="movie-poster" style="background-image: url('pngfiles/thenun2.jpg');"></div>
-        </section>
-        <div class="middle-rectangle"></div>
+        <h2 class="section-title">Trending Releases</h2>
+        <div id="trendingMoviesContainer">
+            <section id="trendingMovies">
+                <div class="movie-container">
+                    <a href="maverick.html"> 
+                        <div class="movie-poster" style="background-image: url('pngfiles/maverick.png');"></div>
+                    </a>
+                </div>          
+                <div class="movie-container">
+                    <a href="fnaf.html"> 
+                        <div class="movie-poster" style="background-image: url('pngfiles/fnaf.jpg');"></div>
+                    </a>
+                </div>         
+                <div class="movie-container">
+                    <a href="mario.html"> 
+                        <div class="movie-poster" style="background-image: url('pngfiles/mario.jpg');"></div>
+                    </a>
+                </div>         
+                <div class="movie-container">
+                    <a href="oppenheimer.html">
+                        <div class="movie-poster" style="background-image: url('pngfiles/oppenheimer.jpg');"></div>
+                    </a>
+                </div>
+                <div class="movie-container">
+                    <a href="thenun2.html"> 
+                        <div class="movie-poster" style="background-image: url('pngfiles/thenun2.jpg');"></div>
+                    </a>
+                </div>
+            </section>
+            
+        </div>
     </main>
     <footer>
-        <p>&copy; 2023 Nittany Rentals</p>
+        <p>&copy; 2023 Nittany Rentals - IST 412</p>
     </footer>
 </body>
 </html>

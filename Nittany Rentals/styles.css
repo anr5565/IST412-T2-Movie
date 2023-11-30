@@ -44,17 +44,41 @@ main {
     position: relative;
 }
 
+h2.section-title {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+#trendingMoviesContainer {
+    background-color: #242424; /* Grey background color */
+    padding: 30px; /* Add padding for spacing around the movie posters */
+}
+
 #trendingMovies {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 160px;
+}
+
+.movie-container {
+    text-align: center; /* Center the movie poster and name */
+    margin-bottom: 20px; /* Adjust this value for spacing between movies */
 }
 
 .movie-poster {
-    width: 200px; /* Adjust the width as needed */
-    height: 300px; /* Maintain the 2:3 aspect ratio */
+    position: relative;
+    width: 200px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
 }
