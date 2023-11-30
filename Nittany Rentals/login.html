@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Nittany Rentals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="pngfiles/pawprint.png" alt="Pawprint Logo" class="logo">
+            </div>
+            <a href="index.html">
+                <h1>Nittany Rentals</h1>
+            </a>
+        </div>
+        <div class="header-buttons">
+            <a href="#" class="account-button">Account</a>
+            <a href="#" class="cart-button">Cart</a>
+        </div>
+    </header>
+    
+    <main>
+        <h2 class="section-title">Login</h2>
+        <!-- Your login form goes here -->
+        <form action="fake_login_process.php" method="post">
+            <!-- Include your input fields for username and password -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Nittany Rentals</p>
+    </footer>
+</body>
+</html>
