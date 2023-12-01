@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Nittany Rentals</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Make sure to link your CSS file -->
 </head>
 <body>
     <header>
@@ -25,7 +25,7 @@
     <main>
         <h2 class="section-title">Login</h2>
         <!-- Your login form goes here -->
-        <form action="fake_login_process.php" method="post">
+        <form action="fake_login_process.php" method="post" class="login-form">
             <!-- Include your input fields for username and password -->
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
@@ -35,6 +35,10 @@
             
             <button type="submit">Login</button>
         </form>
+
+        <!-- Button for creating a new account -->
+        <p><a href="registration.html" class="create-account-link">Create Account</a></p>
+
     </main>
 
     <footer>
